@@ -1,4 +1,3 @@
-from groq import Groq
 import argparse
 import datetime
 import json
@@ -6,9 +5,6 @@ import random
 import requests
 import form  
 import os
-
-#import openai credentials from os
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"),)
 
 # Define your Google Form URL here
 form_url = "https://docs.google.com/forms/d/e/1FAIpQLSchRfk1pmfgJSl__ZM-gq2R7GlTSWhAxZ6ry_zxB4bgSqR-CA/viewform"  # Replace with your Google Form URL
